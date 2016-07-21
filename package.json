@@ -12,9 +12,15 @@
       "versions": {
         "1.0.0": "provideSteelbrainLinter"
       }
+    },
+    "nuclide-diagnostics-provider": {
+      "versions": {
+        "0.1.0": "provideNuclideDiagnostics"
+      }
     }
   },
   "devDependencies": {
+    "flow-bin": "^0.29.0",
     "xo": "^0.16.0"
   },
   "xo": {
@@ -55,5 +61,8 @@
       "type": "string",
       "default": "build"
     }
+  },
+  "dependencies": {
+    "nuclide": "^0.155.0"
   }
 }
