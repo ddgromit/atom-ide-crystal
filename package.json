@@ -12,6 +12,11 @@
       "versions": {
         "1.0.0": "provideSteelbrainLinter"
       }
+    },
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provideAutocomplete"
+      }
     }
   },
   "devDependencies": {
@@ -61,6 +66,12 @@
       "description": "Run `crystal tool format` each time a file is saved.",
       "type": "boolean",
       "default": false
+    },
+    "crackerPath": {
+      "title": "Cracker Path",
+      "description": "Path of cracker (autocomplete engine) binary",
+      "type": "string",
+      "default": "cracker"
     }
   }
 }
